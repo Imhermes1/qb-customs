@@ -7,8 +7,9 @@ moneyType = 'bank'
 -- Add locations here
 -- Add jobs specific to the garage.
 bennyGarages = {
-    [1] = {coords = vector4(-211.55, -1324.55, 30.90, 319.73135375977), useJob = false, job = {"mechanic", "police"}},
-    [2] = {coords = vector4(109.89, 6627.07, 31.78, 221.7938), useJob = true, job = {"mechanic"}}
+    [1] = {coords = vector4(-33.16, -1054.14, 28.4, 33.5), useJob = false, job = {"mechanic", "police"}},
+    [2] = {coords = vector4(109.89, 6627.07, 31.78, 221.7938), useJob = true, job = {"mechanic"}},
+    [3] = {coords = vector4(-1411.81, -441.64, 35.21, 212.9), useJob = true, job = {"mechanic"}}
 }
 
 --[[ bennyLocations = {
@@ -16,6 +17,23 @@ bennyGarages = {
 } ]]
 
 -- ADJUST PRICING
+
+mechanicCustomisationPrices = {
+    cosmetics = {price = 100},
+    respray = {price = 5000},
+    performance = {prices = {0, 1500, 2500, 5450, 7250, 10500}},
+    turbo = {price = 7000},
+    wheels = {price = 200},
+    customwheels = {price = 300},
+    wheelsmoke = {price = 200},
+    windowtint = {price = 200},
+    neonside = {price = 50},
+    neoncolours = {price = 250},
+    headlights = {price = 50},
+    xenoncolours = {price = 250},
+    oldlivery = {price = 250},
+    plateindex = {price = 500}
+}
 
 vehicleCustomisationPrices = {
     cosmetics = {price = 400},
